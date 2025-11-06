@@ -1,0 +1,5 @@
+# Protect leads.csv from direct access
+<Files "leads.csv">
+    Order Allow,Deny
+    Deny from all
+</Files>
